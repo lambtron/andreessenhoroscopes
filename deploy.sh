@@ -14,9 +14,6 @@ fi
 
 set -x
 
-make clean
-make build
-
 git add -A
 git commit -m 'Updating site'
 

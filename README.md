@@ -1,2 +1,4 @@
-# andreessenhoroscopes
-The original Oracle.
+# Andreessen Horoscopes
+
+> The original Oracle.
+

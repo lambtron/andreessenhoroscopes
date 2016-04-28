@@ -1,6 +1,10 @@
 'use strict';
 
 var horoscopes = [
+  'From 1 to 10, how likely is it that you would recommend this horoscope to a friend or colleague?',
+  'You’ll finally find job security by learning to wear many hats, but only after that genetic mutation experiment gone horrifically wrong.',
+  'You will arrive at a decisive fork in the road—be prepared to merge the biggest pull request of your life.',
+  'Be on the lookout—your recurring nightmare of Slack climbing out of your laptop to strangle you may materialize this week.',
   'The stars will be coming to you for answers if you don’t hit their quarterly investment predictions.',
   'Your request to “move fast and break things” has finally been heard—your newest junior web developer will be a ten ton white rhinoceros.',
   'You will be embarrassingly reminded that your company’s ability to attract talent is directly correlated with the size of your data.',

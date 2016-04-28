@@ -3,25 +3,37 @@
   <title>Andreessen Horoscopes</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" type='text/css'>
-  <link href="//db.onlinewebfonts.com/c/b4c2fa61066f13c0e86d8eb30ab7688d?family=HawthornW01-Regular" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="./public/index.css">
   <link rel="icon" type="image/png" href="./public/img/favicon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://andreessenhoroscopes.com" />
+  <meta property="og:title" content="Andreessen Horoscopes" />
+  <meta property="og:description" content="The original Oracle." />
+  <meta property="og:image" content="http://andreessenhoroscopes.com/public/img/meta.gif" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" value="andreessenhoroscopes.com" />
+  <meta name="twitter:title" value="Andressen Horoscopes" />
+  <meta name="twitter:description" value="The original Oracle." />
+  <meta name="twitter:image" content="http://andreessenhoroscopes.com/public/img/meta.gif" />
+  <meta name="twitter:url" value="http://andreessenhoroscopes.com" />
 </head>
 <body style="overflow: hidden;">
   <header>
     <a href="/"><img src="./public/img/logo.svg" alt="Andreessen Horoscopes" /></a>
     <span style="color: #bbb; font: italic 400 1em Lato,sans-serif"><em>The original Oracle</em></span>
   </header>
-  <div style="background-color: black">
+  <div style="background-color: #06152F">
     <div id="bg">
-      <div id="constellations" class="shimmer">
-        <div id="horoscope-wrapper">
-          <span id="horoscope" class="fadeInUp" style="display: table-cell; vertical-align: middle;">
-            Rejoice! You'll finally get a 360 degree view of your customers, but only after that harrowing freak accident with your neck.
-          </span>
-        </div>
+      <div id="horoscope-wrapper">
+        <span id="horoscope" class="fadeInUp"></span>
       </div>
+      <div id="constellations" class="fadeInAndOut">
+      </div>
+      <div class="twinkling"></div>
     </div>
+  </div>
+  <div class="footer">
+    Predicted with <img src="./public/img/crystal-ball.png" style="height: 100%; padding-bottom: 4px" /> in San Francisco
   </div>
   <script type="text/javascript" src="./public/index.js"></script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

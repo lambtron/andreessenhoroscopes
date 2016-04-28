@@ -1,4 +1,14 @@
 
+@font-face {
+  font-family: "Hawthorn W01 Regular";
+  src: url("./fonts/b4c2fa61066f13c0e86d8eb30ab7688d.eot");
+  src: url("./fonts/b4c2fa61066f13c0e86d8eb30ab7688d.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/b4c2fa61066f13c0e86d8eb30ab7688d.woff2") format("woff2"),
+       url("./fonts/b4c2fa61066f13c0e86d8eb30ab7688d.woff") format("woff"),
+       url("./fonts/b4c2fa61066f13c0e86d8eb30ab7688d.ttf") format("truetype"),
+       url("./fonts/b4c2fa61066f13c0e86d8eb30ab7688d.svg#Hawthorn W01 Regular") format("svg");
+}
+
 #bg {
   background-image: url(./img/bg.png);
   background-repeat: no-repeat;

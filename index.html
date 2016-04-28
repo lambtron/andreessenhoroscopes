@@ -3,7 +3,7 @@
   <title>Andreessen Horoscopes</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" type='text/css'>
-  <link rel="stylesheet" href="./public/index.css">
+  <link rel="stylesheet" href="./public/css/index.css">
   <link rel="icon" type="image/png" href="./public/img/favicon.png">
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://andreessenhoroscopes.com" />
@@ -25,7 +25,21 @@
   <div style="background-color: #06152F">
     <div id="bg">
       <div id="horoscope-wrapper">
-        <span id="horoscope" class="fadeInUp"></span>
+        <span id="horoscope">
+          <span id="horoscope-text" class="fadeInUp">
+          </span>
+          <div class="social-buttons" style="height: 30px; font-size: 0.6em; margin-top: 20px;">
+            <a id="tw-like" class="button" href="#">
+              <img style="height: 100%" src="./public/img/like.svg" alt="like" />
+            </a>
+            <a id="tw-tweet" class="button" href="#">
+              <img style="height: 100%" src="./public/img/tweet.svg" alt="tweet" />
+            </a>
+            <a id="tw-retweet" class="button" href="#">
+              <img style="height: 100%" src="./public/img/retweet.svg" alt="retweet" />
+            </a>
+          </div>
+        </span>
       </div>
       <div id="constellations" class="fadeInAndOut">
       </div>
@@ -35,13 +49,14 @@
   <div class="footer">
     Predicted with <img src="./public/img/crystal-ball.png" style="height: 100%; padding-bottom: 4px" /> in San Francisco
   </div>
-  <script type="text/javascript" src="./public/index.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <script type="text/javascript">
     !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
-    analytics.load("meXlOMrhWmvmQAPUSlUDWNRXIV7ELakR");
-    analytics.page();
+      analytics.load("meXlOMrhWmvmQAPUSlUDWNRXIV7ELakR");
+      analytics.page();
     }}();
   </script>
+  <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>

@@ -1,6 +1,12 @@
-'use strict';
+
+/**
+ * Module dependencies.
+ */
+
+// var horoscopes = require("json!./horoscopes.json");
 
 var horoscopes = {
+  '725809061053128704': 'The inquisitive sun will uncover some skeptics, but don’t pay them any mind. If you say it’s hamster tech, it’s hamster tech.',
   '725721800928194560': 'From 1 to 10, how likely is it that you would recommend this horoscope to a friend or colleague?',
   '725685587840106496': 'You’ll finally find job security by learning to wear many hats, but only after that genetic mutation experiment gone horrifically wrong.',
   '725479024424673280': 'You will arrive at a decisive fork in the road—be prepared to merge the biggest pull request of your life.',
@@ -42,7 +48,7 @@ function getRandomHoroscope() {
  */
 
 function setHoroscope(horoscope) {
-  var hspan = document.querySelector('#horoscope');
+  var hspan = document.querySelector('#horoscope-text');
   hspan.innerHTML = htmlify(horoscope);
 }
 
@@ -86,6 +92,23 @@ function getRandomProperty(obj) {
 }
 
 /**
+ * Set twitter urls.
+ */
+
+function setTwitterButtons(tweet_id) {
+  var twitter = 'https://twitter.com/intent/';
+  var like = twitter + 'like?tweet_id=' + tweet_id;
+  var tweet = twitter + 'tweet?in_reply_to=' + tweet_id;
+  var retweet = twitter + 'retweet?tweet_id=' + tweet_id;
+  var follow = twitter + 'follow?screen_name=andreessenhoroscopes';
+
+  // Set
+  document.getElementById('tw-like').href = like;
+  document.getElementById('tw-tweet').href = tweet;
+  document.getElementById('tw-retweet').href = retweet;
+}
+
+/**
  * Main logic.
  */
 
@@ -93,6 +116,7 @@ function main() {
   var id = getParameterByName('id');
   if (!id || !horoscopes[id]) return window.location.href = domain + '?id=' + Object.keys(horoscopes)[0];
   setHoroscope(horoscopes[id]);
+  setTwitterButtons(id);
 }
 
 /**

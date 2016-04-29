@@ -18,8 +18,7 @@
   width: 100%;
 }
 
-#constellations {
-  background-image: url(../img/constellations.png);
+.constellation {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,6 +27,41 @@
   height: 100%;
   width: 100%;
   z-index: 3;
+}
+
+#airbnb {
+  background-image: url(../img/constellation-airbnb.png);
+  -webkit-animation: fadeInAndOut ease-in-out 20s infinite;
+  -moz-animation: fadeInAndOut ease-in-out 20s infinite;
+  animation: fadeInAndOut ease-in-out 20s infinite;
+}
+
+#snapchat {
+  background-image: url(../img/constellation-snapchat.png);
+  -webkit-animation: fadeInAndOut ease-in-out 16s infinite;
+  -moz-animation: fadeInAndOut ease-in-out 16s infinite;
+  animation: fadeInAndOut ease-in-out 16s infinite;
+}
+
+#slack {
+  background-image: url(../img/constellation-slack.png);
+  -webkit-animation: fadeInAndOut ease-in-out 6s infinite;
+  -moz-animation: fadeInAndOut ease-in-out 6s infinite;
+  animation: fadeInAndOut ease-in-out 6s infinite;
+}
+
+#github {
+  background-image: url(../img/constellation-github.png);
+  -webkit-animation: fadeInAndOut ease-in-out 10s infinite;
+  -moz-animation: fadeInAndOut ease-in-out 10s infinite;
+  animation: fadeInAndOut ease-in-out 10s infinite;
+}
+
+#dropbox {
+  background-image: url(../img/constellation-dropbox.png);
+  -webkit-animation: fadeInAndOut ease-in-out 14s infinite;
+  -moz-animation: fadeInAndOut ease-in-out 14s infinite;
+  animation: fadeInAndOut ease-in-out 14s infinite;
 }
 
 #horoscope-wrapper {
@@ -137,12 +171,6 @@
   100% {
     opacity: 0;
   }
-}
-
-.fadeInAndOut {
-  -webkit-animation: fadeInAndOut ease-in-out 10s infinite;
-  -moz-animation: fadeInAndOut ease-in-out 10s infinite;
-  animation: fadeInAndOut ease-in-out 10s infinite;
 }
 
 @-webkit-keyframes move-twink-back {

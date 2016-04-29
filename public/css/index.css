@@ -25,7 +25,6 @@
   background-size: cover;
   position: absolute;
   left: 0px;
-  top: 44px;
   height: 100%;
   width: 100%;
   z-index: 3;
@@ -153,7 +152,6 @@
 
 .twinkling {
   position: absolute;
-  top: 50;
   left: 0;
   right: 0;
   bottom: 0;

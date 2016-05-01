@@ -6,6 +6,9 @@
 // var horoscopes = require("json!./horoscopes.json");
 
 var horoscopes = {
+  '726494726573031424': 'Huzzah! You will finally attain viral growth, but only after confirming it with your oncologist.',
+  '726193604184567808': 'Crossing the chasm will take on a devastating new meaning when a sudden earthquake separates you from your customers.',
+  '726099201998745600': 'Enough is enough—let’s finally see if that one weird trick to reduce belly fat works.',
   '725809061053128704': 'The inquisitive sun will uncover some skeptics, but don’t pay them any mind. If you say it’s hamster tech, it’s hamster tech.',
   '725721800928194560': 'From 1 to 10, how likely is it that you would recommend this horoscope to a friend or colleague?',
   '725685587840106496': 'You’ll finally find job security by learning to wear many hats, but only after that genetic mutation experiment gone horrifically wrong.',
@@ -34,14 +37,6 @@ var horoscopes = {
 };
 
 var domain = 'http://' + window.location.host + '/';
-
-/**
- * Get random horoscope from array.
- */
-
-function getRandomHoroscope() {
-  return window.location.href = domain + '?id=' + getRandomProperty(horoscopes);
-}
 
 /**
  * Set horoscope in the span and in the tweet.
@@ -109,6 +104,14 @@ function setTwitterButtons(tweet_id) {
 }
 
 /**
+ * Set new horoscope button
+ */
+
+function setNewHoroscopeButton() {
+  document.getElementById('new-horoscope').href = domain + '?id=' + getRandomProperty(horoscopes);
+}
+
+/**
  * Main logic.
  */
 
@@ -117,6 +120,7 @@ function main() {
   if (!id || !horoscopes[id]) return window.location.href = domain + '?id=' + Object.keys(horoscopes)[0];
   setHoroscope(horoscopes[id]);
   setTwitterButtons(id);
+  setNewHoroscopeButton();
 }
 
 /**
@@ -124,8 +128,3 @@ function main() {
  */
 
 main();
-
-/**
- * Attach getRandomHoroscope to button.
- */
-

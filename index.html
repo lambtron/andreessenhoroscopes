@@ -25,18 +25,18 @@
   <div style="background-color: #06152F">
     <div id="bg">
       <div id="horoscope-wrapper">
-        <span id="horoscope">
-          <span id="horoscope-text" class="fadeInUp">
+        <span id="horoscope" class="fadeInUp">
+          <span id="horoscope-text">
           </span>
           <div class="social-buttons" style="height: 30px; font-size: 0.6em; margin-top: 20px;">
             <a id="tw-like" class="button" href="#">
               <img style="height: 100%" src="./public/img/like.svg" alt="like" />
             </a>
-            <a id="tw-tweet" class="button" href="#">
-              <img style="height: 100%" src="./public/img/tweet.svg" alt="tweet" />
-            </a>
             <a id="tw-retweet" class="button" href="#">
               <img style="height: 100%" src="./public/img/retweet.svg" alt="retweet" />
+            </a>
+            <a id="new-horoscope" class="button" style="color: white; font: 400 0.7em Lato,sans-serif; margin-left: 10px" href="#">
+              What else do you see?
             </a>
           </div>
         </span>
@@ -55,7 +55,7 @@
     </div>
   </div>
   <div class="footer">
-    Predicted with <img src="./public/img/crystal-ball.png" style="height: 100%; padding-bottom: 4px" /> in San Francisco
+    <a style="text-decoration: none; color: white;" href="https://twitter.com/startupsigns">Predicted with <img src="./public/img/crystal-ball.png" style="height: 100%; padding-bottom: 4px" /> in San Francisco</a>
   </div>
   <script type="text/javascript" src="./index.js"></script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

@@ -91,7 +91,7 @@
 
   to {
     opacity: 1;
-    transform: none
+    transform: none;
   }
 }
 
@@ -103,7 +103,7 @@
 
   to {
     opacity: 1;
-    transform: none
+    transform: none;
   }
 }
 
@@ -115,14 +115,14 @@
 
   to {
     opacity: 1;
-    transform: none
+    transform: none;
   }
 }
 
 .fadeInUp {
-  -webkit-animation: fadeInUp ease-out 0.5s;
-  -moz-animation: fadeInUp ease-out 0.5s;
-  animation: fadeInUp ease-out 0.5s;
+  -webkit-animation: fadeInUp ease-out 1.5s;
+  -moz-animation: fadeInUp ease-out 1.5s;
+  animation: fadeInUp ease-out 1.5s;
 
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;

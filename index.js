@@ -82,14 +82,6 @@
 	var domain = 'http://' + window.location.host + '/';
 
 	/**
-	 * Get random horoscope from array.
-	 */
-
-	function getRandomHoroscope() {
-	  return window.location.href = domain + '?id=' + getRandomProperty(horoscopes);
-	}
-
-	/**
 	 * Set horoscope in the span and in the tweet.
 	 */
 
@@ -155,6 +147,14 @@
 	}
 
 	/**
+	 * Set new horoscope button
+	 */
+
+	function setNewHoroscopeButton() {
+	  document.getElementById('new-horoscope').href = domain + '?id=' + getRandomProperty(horoscopes);
+	}
+
+	/**
 	 * Main logic.
 	 */
 
@@ -163,6 +163,7 @@
 	  if (!id || !horoscopes[id]) return window.location.href = domain + '?id=' + Object.keys(horoscopes)[0];
 	  setHoroscope(horoscopes[id]);
 	  setTwitterButtons(id);
+	  setNewHoroscopeButton();
 	}
 
 	/**
@@ -170,11 +171,6 @@
 	 */
 
 	main();
-
-	/**
-	 * Attach getRandomHoroscope to button.
-	 */
-
 
 
 /***/ }

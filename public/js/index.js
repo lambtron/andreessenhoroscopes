@@ -99,7 +99,7 @@ function setTwitterButtons(tweet_id) {
 
   // Set
   document.getElementById('tw-like').href = like;
-  document.getElementById('tw-tweet').href = tweet;
+  // document.getElementById('tw-tweet').href = tweet;
   document.getElementById('tw-retweet').href = retweet;
 }
 

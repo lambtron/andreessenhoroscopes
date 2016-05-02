@@ -52,6 +52,7 @@
 	// var horoscopes = require("json!./horoscopes.json");
 
 	var horoscopes = {
+	  '727157721447813120': 'You’ll finally find employment at the manufacturing plant, but at the expense of being able to successfully solve CAPTCHAs from now on.',
 	  '726494726573031424': 'Huzzah! You will finally attain viral growth, but only after confirming it with your oncologist.',
 	  '726193604184567808': 'Crossing the chasm will take on a devastating new meaning when a sudden earthquake separates you from your customers.',
 	  '726099201998745600': 'Enough is enough—let’s finally see if that one weird trick to reduce belly fat works.',

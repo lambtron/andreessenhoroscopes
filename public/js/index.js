@@ -6,6 +6,9 @@
 // var horoscopes = require("json!./horoscopes.json");
 
 var horoscopes = {
+  '727502307114385411': 'You will be disappointed when you arrive with a pink ball gag in your mouth to learn that DOM is not what you expected it to be.',
+  '727256924362674176': 'As you prepare to fight a 1,000 year crusade, a part of you just can’t help but wonder if that angel funding was even worth it.',
+  '727213747106783232': 'It feels nice to have someone occasionally check in on you, but having it in the form of a retargeting ad makes it a bit creepy.',
   '727157721447813120': 'You’ll finally find employment at the manufacturing plant, but at the expense of being able to successfully solve CAPTCHAs from now on.',
   '726494726573031424': 'Huzzah! You will finally attain viral growth, but only after confirming it with your oncologist.',
   '726193604184567808': 'Crossing the chasm will take on a devastating new meaning when a sudden earthquake separates you from your customers.',

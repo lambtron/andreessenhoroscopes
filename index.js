@@ -52,6 +52,9 @@
 	// var horoscopes = require("json!./horoscopes.json");
 
 	var horoscopes = {
+	  '728326747503009792': 'You may need to reinterpret “keep your sales team hungry” when one of your star account executives dies from starvation this week.',
+	  '727924883527622656': 'No Meetings Thursday will be replaced by Mandatory Highly Structured and Institutionalized Socialization Wednesday.',
+	  '727874963806392320': 'Your enthusiasm to dogfood your product will be met with amused confusion when you finish eating the entire bag of kibbles and bits.',
 	  '727502307114385411': 'You will be disappointed when you arrive with a pink ball gag in your mouth to learn that DOM is not what you expected it to be.',
 	  '727256924362674176': 'As you prepare to fight a 1,000 year crusade, a part of you just can’t help but wonder if that angel funding was even worth it.',
 	  '727213747106783232': 'It feels nice to have someone occasionally check in on you, but having it in the form of a retargeting ad makes it a bit creepy.',

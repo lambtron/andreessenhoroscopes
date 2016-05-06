@@ -52,6 +52,7 @@
 	// var horoscopes = require("json!./horoscopes.json");
 
 	var horoscopes = {
+	  '728629230548852736': 'Your company will enforce daily minimum kool-aid consumption and you will love it.',
 	  '728326747503009792': 'You may need to reinterpret “keep your sales team hungry” when one of your star account executives dies from starvation this week.',
 	  '727924883527622656': 'No Meetings Thursday will be replaced by Mandatory Highly Structured and Institutionalized Socialization Wednesday.',
 	  '727874963806392320': 'Your enthusiasm to dogfood your product will be met with amused confusion when you finish eating the entire bag of kibbles and bits.',

@@ -6,6 +6,9 @@
 // var horoscopes = require("json!./horoscopes.json");
 
 var horoscopes = {
+  '730077851991449604': 'Light from the constellation Libra has traveled for eons through the interstellar void to tell you to try changing the button color to blue.',
+  '729716666318249984': 'No horoscope for now—the heavens are still enjoying their unlimited PTO.',
+  '729400564182720512': 'Technological advances in bovine gene splicing and fecal gastrology will finally allow you to eat your own bullshit.',
   '728629230548852736': 'Your company will enforce daily minimum kool-aid consumption and you will love it.',
   '728326747503009792': 'You may need to reinterpret “keep your sales team hungry” when one of your star account executives dies from starvation this week.',
   '727924883527622656': 'No Meetings Thursday will be replaced by Mandatory Highly Structured and Institutionalized Socialization Wednesday.',

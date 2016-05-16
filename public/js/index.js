@@ -6,6 +6,11 @@
 // var horoscopes = require("json!./horoscopes.json");
 
 var horoscopes = {
+  '732271281471512577': 'Swiping right endlessly was not done in vain—your more dexterous thumb will unlock a whole new world of self-stimulation possibilities.',
+  '731158470070657024': 'You will be surprised to learn, after you start quantified self, that you are actually a zero.',
+  '730888306938912768': 'The stars shall bestow their benevolence upon you this week, allowing you to hail an Uber at only 2x surge pricing.',
+  '730807259370938369': 'The rise of Mercury in the western sky can only mean one thing—but you’ll insist on making this whole thing apply to your company’s growth.',
+  '730449751406059520': 'When you begin feeling ignored and unnoticed, remember that companies are watching you and tracking your most intimate browsing habits.',
   '730077851991449604': 'Light from the constellation Libra has traveled for eons through the interstellar void to tell you to try changing the button color to blue.',
   '729716666318249984': 'No horoscope for now—the heavens are still enjoying their unlimited PTO.',
   '729400564182720512': 'Technological advances in bovine gene splicing and fecal gastrology will finally allow you to eat your own bullshit.',

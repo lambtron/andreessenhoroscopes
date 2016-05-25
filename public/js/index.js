@@ -6,6 +6,14 @@
 // var horoscopes = require("json!./horoscopes.json");
 
 var horoscopes = {
+  '735551120811151365': 'Due to the noisy mess you made last time, your co-workers will now assume all responsibilities around database sharding.',
+  '735272471537025024': 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don‘t know what “idempotence“ means.',
+  '734831873919094784': 'The stars understand that faith is difficult in the modern world, but trust them when they tell you that CAC must be less than LTV.',
+  '734751697617227776': 'Cosmic indicators confirm that VC money will continue to subsidize your lazy, instant gratification driven, piece of shit lifestyle.',
+  '733776337345740800': 'You’ll finally achieve 99.999% uptime, but please seek immediate medical help if it lasts more than 4 hours.',
+  '733377932836605952': 'You’ll revisit the meaning of ”highly available” after that awkward date with the web server caused it to stop responding to your requests.',
+  '732972065100177408': 'The stars foresee a massive acquisition in the future. Soon they‘ll be driving around in Teslas instead wasting time predicting your future.',
+  '732608312454172672': 'They will continue to champion “software is eating the world,“ just as you will continue to eat their bullshit.',
   '732271281471512577': 'Swiping right endlessly was not done in vain—your more dexterous thumb will unlock a whole new world of self-stimulation possibilities.',
   '731158470070657024': 'You will be surprised to learn, after you start quantified self, that you are actually a zero.',
   '730888306938912768': 'The stars shall bestow their benevolence upon you this week, allowing you to hail an Uber at only 2x surge pricing.',

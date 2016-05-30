@@ -52,6 +52,16 @@
 	// var horoscopes = require("json!./horoscopes.json");
 
 	var horoscopes = {
+	  '737269366304219137': 'The stars are happy to provide you with your prediction this week, but only after you sign this NDA.',
+	  '737012445248651265': 'You will receive some life altering news this week—but only after you upgrade your subscription to remove that pay wall.',
+	  '736981462562557952': 'The stars just got Fitbits and will remind you constantly that they are working out way more than you.',
+	  '736906972012896256': 'You will be disappointed to learn that observing your co-workers use the bathroom is not the intended meaning of “unit testing.“',
+	  '736650036336037888': 'Your journey to finally understand Ruby ends abruptly when the FBI finds the missing gem from 2012 under your bed.',
+	  '736619040978968576': 'While your enthusiasm and passion were genuinely appreciated, imitating an aggressive orgasm was incorrect when asked to define “Big O.“',
+	  '736544609942306816': 'The capricious stars suggest adopting a seventh project tracking tool just to manage the six other ones.',
+	  '736304800950800384': 'Your progressive startup will replace its male and female bathrooms with one, large genderless bucket.',
+	  '736295433627127808': 'Your excitement for the master-slave interactive demo will severely dampened when you learn that it‘s about database replication.',
+	  '736277996777115648': 'Don‘t give up—your insistence on coining the word “turdacorn“ will soon be rewarded.',
 	  '735551120811151365': 'Due to the noisy mess you made last time, your co-workers will now assume all responsibilities around database sharding.',
 	  '735272471537025024': 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don‘t know what “idempotence“ means.',
 	  '734831873919094784': 'The stars understand that faith is difficult in the modern world, but trust them when they tell you that CAC must be less than LTV.',

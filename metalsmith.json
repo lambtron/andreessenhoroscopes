@@ -1,0 +1,14 @@
+{
+  "source": "horoscopes",
+  "destination": "./",
+  "clean": false,
+  "metadata": {
+    "baseUrl": "http://andreessenhoroscopes.com",
+    "location": "/",
+    "title": "Andreessen Horoscopes",
+    "description": "The original Oracle"
+  },
+  "plugins": {
+    "./lib/metalsmith-plugins.js": true
+  }
+}

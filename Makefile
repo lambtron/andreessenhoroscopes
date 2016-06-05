@@ -3,7 +3,7 @@
 # Binaries.
 #
 
-webpack = ./node_modules/.bin/webpack
+metalsmith := ./node_modules/.bin/metalsmith
 
 #
 # Default.
@@ -17,11 +17,14 @@ default: build
 
 # Remove shit.
 clean:
-	@rm index.js index.css
+	@rm -rf ./horoscopes
+	find . -type f -name '*.html' ! -path './node_modules/*' ! -path './template/*' ! -path './horoscopes/*' -delete
+	find . -empty -type d -delete
 
 # Build client.
 build:
-	webpack
+	@node ./lib/build.js
+	@$(metalsmith)
 
 # Run server.
 server:
@@ -29,6 +32,7 @@ server:
 
 # Deploy.
 deploy:
+	@$(make clean) @$(make build)
 	./deploy.sh
 
 #

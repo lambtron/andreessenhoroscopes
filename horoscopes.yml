@@ -1,4 +1,7 @@
 -
+    tweet_id: '741980425694916608'
+    content: 'Much to the disbelief of your co-workers, wearing a condom and penetrating a computer’s USB port will not transmit a trojan virus.'
+-
     tweet_id: '741723447680720897'
     content: 'You may want to approach an older demographic, since the “floppy disk” pick up line is lost on the children.'
 -
@@ -127,9 +130,6 @@
 -
     tweet_id: '735551120811151365'
     content: 'Due to the noisy mess you made last time, your co-workers will now assume all responsibilities around database sharding.'
--
-    tweet_id: '735272519071076353'
-    content: '@ahgandhi thank you!!'
 -
     tweet_id: '735272471537025024'
     content: 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don’t know what “idempotence” means.'

@@ -14,6 +14,9 @@ fi
 
 set -x
 
+git config user.email 'andyjiang@gmail.com'
+git config user.name 'lambtron'
+
 git add -A
 git commit -m 'Updating site'
 

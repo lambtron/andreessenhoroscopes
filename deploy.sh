@@ -14,12 +14,6 @@ fi
 
 set -x
 
-git config user.email 'andyjiang@gmail.com'
-git config user.name 'lambtron'
-
 git add -A
 git commit -m 'Updating site'
-
-# For now, to deploy run `git push -u origin master:gh-pages`.
-# Once we move it to segmentio.github.com, it will be automatically deployed on every push.
 git push origin master:gh-pages

@@ -18,5 +18,5 @@ git config user.email 'andyjiang@gmail.com'
 git config user.name 'lambtron'
 
 git add -A
-git commit -m 'Updating site'
+git commit -m 'Updated site'
 git push origin master:gh-pages

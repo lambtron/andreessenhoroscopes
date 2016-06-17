@@ -6,8 +6,8 @@ install:
 before_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-script:
   - git checkout -b gh-pages
+script:
   - make clean
   - make build
   - make deploy

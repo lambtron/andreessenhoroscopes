@@ -2,7 +2,7 @@
 
 # Validate branch.
 if [[ $(git name-rev --name-only HEAD) != "master" ]]; then
-  echo "Must be on master to make a release."
+  echo "Must be on gh-pages to make a release."
   exit 1
 fi
 
@@ -19,4 +19,4 @@ git config user.name 'lambtron'
 
 git add -A
 git commit -m 'Updated site'
-git push origin master:gh-pages
+git push origin gh-pages:gh-pages

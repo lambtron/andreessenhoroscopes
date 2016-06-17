@@ -32,7 +32,6 @@ server:
 
 # Deploy.
 deploy:
-	@$(make clean) @$(make build)
 	./deploy.sh
 
 #

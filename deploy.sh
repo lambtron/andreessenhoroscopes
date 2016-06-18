@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git checkout gh-pages
-
 # Validate branch.
 if [[ $(git name-rev --name-only HEAD) != "master" ]]; then
   echo "Must be on gh-pages to make a release."

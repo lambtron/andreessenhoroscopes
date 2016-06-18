@@ -15,3 +15,7 @@ script:
 env:
   global:
     - secure: "R2UHXWuVRvHesxdEaZH9oMpgh70wmntMgBbDpLjyGaHyUvorqF7EniSt0XdboZbBvfn9f7oPU/gCS32MFWN09veEbiF7TiHJwa4DHfulREgch/yomdoz5hwhACgx+3NhNxQxGq8ai0ejU4R5TrIB/xrAlwPlQtdx13Wznn2lxgKsyoe7xVkQDNjBx7ZawrnTSv/7+RmmbI8UG67o8fdfX/6Y41ST6LkE3lFdhABGkp14JX+zAzomjQe9/y464RDA4jSESQlrMb8k5Xr8KG058HCAQEQFONheXsaFqFKQSFC2XtwqSGffVEuGL4Uqp7OW0RV0J9d1bV8gHpi4qMPp3QdayD7QY9iFY7ER+ZphsNYVuN9ztV023i/Z3gvwurz+1xwKXvA0WqZekZTcEPkSB7iw+qzD1GUgJSxV4pbdS4JiahN3e/zTt9kpZF9jIyJfHXg1udReWA0mvatK3DZfLryEfTGvT3+GV8rq5mNKWEeaRUXHco4eBl6ubDf7BjckphGqqkkP5rXfC8Bc1LSBBi52+bVdntLAvp7yhLA9FFKuzHs9AWVcX+3/drDVDCJ211htmEWUN/kM68Zf3p/G2Dqa9InbPuLlLDtxrtRVAocv7feWJ0wPN5tKMJje5YgGO0ohTwKxrO6T+Rs0raCFChQnSK1CmdZFADqbCzXA1Rs="
+branches:
+  only:
+    - master
+    - gh-pages

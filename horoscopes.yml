@@ -1,4 +1,7 @@
 -
+    tweet_id: '869825770209857536'
+    content: 'You will acquire the skills necessary to become a “full stack” developer, allowing you to freely add technical debt to the entire codebase.'
+-
     tweet_id: '869458967348604928'
     content: 'Though you have led a long and active life, your most valuable contribution to society will still be your personal data.'
 -
@@ -583,6 +586,3 @@
 -
     tweet_id: '724646298041753600'
     content: 'The sun is in flux—now is the time to rewrite your entire web app in that experimental new front-end javascript framework.'
--
-    tweet_id: '724615980752629761'
-    content: 'Remember: your worth as a human being is tied directly to the month-over-month percentage growth of your company.'

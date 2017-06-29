@@ -1,4 +1,7 @@
 -
+    tweet_id: '880317287391166464'
+    content: 'You may experience imposter syndrome, but let the stars assure you—you really are just a fraud.'
+-
     tweet_id: '879948272248508416'
     content: 'Your app’s bugs will continue to surprise and delight you this week.'
 -
@@ -583,6 +586,3 @@
 -
     tweet_id: '735272471537025024'
     content: 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don’t know what “idempotence” means.'
--
-    tweet_id: '734831873919094784'
-    content: 'The stars understand that faith is difficult in the modern world, but trust them when they tell you that CAC must be less than LTV.'

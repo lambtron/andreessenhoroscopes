@@ -1,4 +1,7 @@
 -
+    tweet_id: '880682236827381760'
+    content: 'Your vanity will reach new heights when you are the first to create a “shallow learning” algorithm.'
+-
     tweet_id: '880317287391166464'
     content: 'You may experience imposter syndrome, but let the stars assure you—you really are just a fraud.'
 -
@@ -583,6 +586,3 @@
 -
     tweet_id: '735551120811151365'
     content: 'Due to the noisy mess you made last time, your co-workers will now assume all responsibilities around database sharding.'
--
-    tweet_id: '735272471537025024'
-    content: 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don’t know what “idempotence” means.'

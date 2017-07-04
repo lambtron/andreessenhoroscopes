@@ -1,4 +1,7 @@
 -
+    tweet_id: '882149101575524352'
+    content: 'The sun is in flux—now is the time to rewrite your entire web app in that experimental new front-end javascript framework.'
+-
     tweet_id: '881784194178973696'
     content: 'The stars, portentously arranged at this precise moment in time, indicate that this is not a good week to merge any pull requests.'
 -
@@ -586,6 +589,3 @@
 -
     tweet_id: '736304800950800384'
     content: 'Your progressive startup will replace its male and female bathrooms with one, large genderless bucket.'
--
-    tweet_id: '736295433627127808'
-    content: 'Your excitement for the master-slave interactive demo will severely dampened when you learn that it’s about database replication.'

@@ -1,4 +1,10 @@
 -
+    tweet_id: '893608398473879552'
+    content: 'Your progressive startup will replace its male and female bathrooms with one, large genderless bucket.'
+-
+    tweet_id: '893239803751403520'
+    content: 'Your journey to finally understand Ruby ends abruptly when the FBI finds the missing gem from 2012 under your bed.'
+-
     tweet_id: '892871986581471232'
     content: 'No horoscope for now—the heavens are still enjoying their unlimited PTO.'
 -
@@ -583,9 +589,3 @@
 -
     tweet_id: '741255595953684481'
     content: 'Your suspicion towards the stars’ predictions will force you to think twice about believing this horoscope.'
--
-    tweet_id: '740967719399489536'
-    content: 'You will be saddened after crawling on your knees to learn that analyzing traffic over a network is the real meaning of “packet sniffing.”'
--
-    tweet_id: '740893259040493568'
-    content: 'Cosmic irony will abound when the bot you’ve created to automate your job ends up stealing your friends and banging your exes.'

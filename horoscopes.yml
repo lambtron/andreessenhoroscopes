@@ -1,4 +1,7 @@
 -
+    tweet_id: '911274891063767040'
+    content: 'You will be denied the “code monkey” job, as you just weren’t able to pass the “monkey” portion of the interview.'
+-
     tweet_id: '910910966279401473'
     content: 'You will arrive at a decisive fork in the road—be prepared to merge the biggest pull request of your life.'
 -
@@ -577,6 +580,3 @@
 -
     tweet_id: '764191527690207237'
     content: 'Don’t get too excited—that heart throb in the Lyft Line is actually a sign of your early onset arrhythmia.'
--
-    tweet_id: '764160543393546240'
-    content: 'Your engineering skills will continue to test the delicate balance of knowing how often to use the force flag when pushing your commits.'

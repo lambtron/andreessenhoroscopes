@@ -1,4 +1,7 @@
 -
+    tweet_id: '936604553394434048'
+    content: 'Seeing the simultaneous razing of 137 hazardous buildings will force you to ask yourself if you’re at the right demo day.'
+-
     tweet_id: '936240206243663872'
     content: 'The sun is in flux—now is the time to rewrite your entire web app in that experimental new front-end javascript framework.'
 -
@@ -577,6 +580,3 @@
 -
     tweet_id: '870202745176952832'
     content: 'Much to the disbelief of your co-workers, wearing a condom and penetrating a computer’s USB port will not transmit a trojan virus.'
--
-    tweet_id: '869825770209857536'
-    content: 'You will acquire the skills necessary to become a “full stack” developer, allowing you to freely add technical debt to the entire codebase.'

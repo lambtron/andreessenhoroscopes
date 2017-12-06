@@ -1,4 +1,7 @@
 -
+    tweet_id: '938070375983874054'
+    content: 'You will blow the minds of engineers and chefs alike with your new “lasagna code.”'
+-
     tweet_id: '937705825434570752'
     content: 'The stars are happy to provide you with your prediction this week, but only after you sign this NDA.'
 -
@@ -577,6 +580,3 @@
 -
     tweet_id: '870709302251601920'
     content: 'The sun is in flux—now is the time to rewrite your entire web app in that experimental new front-end javascript framework.'
--
-    tweet_id: '870672515496017920'
-    content: 'Cosmic indicators confirm that VC money will continue to subsidize your lazy, instant gratification driven, piece of shit lifestyle.'

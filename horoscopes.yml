@@ -1,4 +1,7 @@
 -
+    tweet_id: '941155185413455872'
+    content: 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don’t know what “idempotence” means.'
+-
     tweet_id: '940777936801746944'
     content: 'While it’s condemned to be racist in public, rest assured that you can still be as racist as you want behind the anonymity of the internet.'
 -
@@ -577,6 +580,3 @@
 -
     tweet_id: '874033831950602240'
     content: 'Your enthusiasm to dogfood your product will be met with amused confusion when you finish eating the entire bag of kibbles and bits.'
--
-    tweet_id: '873666084863442944'
-    content: 'You will be denied the “code monkey” job, as you just weren’t able to pass the “monkey” portion of the interview.'

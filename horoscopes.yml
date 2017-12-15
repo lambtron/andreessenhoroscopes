@@ -1,4 +1,7 @@
 -
+    tweet_id: '941524225826975744'
+    content: 'Though it’s important to have diverse perspectives on your team, it’s just easier and faster to hire people who look like you.'
+-
     tweet_id: '941155185413455872'
     content: 'Your idempotence will cause you to repeat yourself ineffectively, proving once and for all that you don’t know what “idempotence” means.'
 -
@@ -577,6 +580,3 @@
 -
     tweet_id: '874399297126760449'
     content: 'Though you have led a long and active life, your most valuable contribution to society will still be your personal data.'
--
-    tweet_id: '874033831950602240'
-    content: 'Your enthusiasm to dogfood your product will be met with amused confusion when you finish eating the entire bag of kibbles and bits.'
